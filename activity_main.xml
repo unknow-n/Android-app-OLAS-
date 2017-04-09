@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nightmare.myapp.MainActivity">
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="?attr/colorControlNormal"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="152dp"
+        android:layout_alignBaseline="@+id/l2"
+        android:layout_alignBottom="@+id/l2"
+        android:layout_alignStart="@+id/t4" />
+
+    <TextView
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="35dp"
+        android:text="email"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="passwd"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="177dp"
+        android:layout_below="@+id/l2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:text="register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/l6"
+        tools:layout_editor_absoluteY="357dp"
+        tools:layout_editor_absoluteX="168dp" />
+
+    <EditText
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b2"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/l6"
+        android:layout_centerHorizontal="true"
+        android:text="login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/admin1"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="46dp"
+        android:text="admin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/l4" />
+
+    <TextView
+        android:id="@+id/pr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/admin1"
+        android:layout_alignBottom="@+id/admin1"
+        android:layout_alignEnd="@+id/t4"
+        android:text="Provider's Request" />
+
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="com.example.nightmare.myapp.Register">
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/l2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="?attr/colorButtonNormal"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="393dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/t5"
+        android:layout_marginBottom="92dp" />
+
+    <TextView
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="usr"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <EditText
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/l5"
+        android:layout_alignBottom="@+id/l5"
+        android:layout_alignStart="@+id/t4"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/t1"
+        android:layout_alignTop="@+id/l2"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="?attr/colorControlNormal"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/l5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t4"
+        android:layout_marginTop="40dp"
+        android:text="re-enter pass"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <TextView
+        android:id="@+id/l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/l2"
+        android:layout_marginTop="37dp"
+        android:text="mobile no"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="211dp"
+        android:layout_height="27dp"
+        android:layout_alignBaseline="@+id/l3"
+        android:layout_alignBottom="@+id/l3"
+        android:layout_alignStart="@+id/t2"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/l4"
+        android:layout_width="84dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t3"
+        android:layout_marginTop="48dp"
+        android:text="passwd"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="35dp"
+        android:text="email"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/l4"
+        android:layout_alignBottom="@+id/l4"
+        android:layout_alignStart="@+id/t3"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+</RelativeLayout>
